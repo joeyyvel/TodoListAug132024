@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Nunito;
+  background-image: url("/notePicture.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.main-container {
+  position: relative;
+  text-align: center;
+  top: 30px;
+}
+
+header {
+  color: aliceblue;
+  text-shadow: 2px 3px gray;
+  text-align: center;
+  margin-top: 20px;
+}
+header h1 {
+  font-size: 2rem;
+}
+
+/* container - input area*/
+
+#container {
+  text-align: center;
+}
+
+#myInput {
+  padding: 5px 15px;
+  font-size: 20px;
+  color: rgb(2, 2, 37);
+  cursor: pointer;
+}
+
+.inputBox {
+  background-color: rgb(160, 107, 10);
+  width: 60%;
+  margin-top: 20px;
+  box-shadow: 3px 5px 10px gray;
+}
+
+#addBtn {
+  color: white;
+  border: 1px solid gray;
+  padding: 6px 20px;
+  border-radius: 5%;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  box-shadow: 3px 5px 10px gray;
+  cursor: pointer;
+}
+
+#addBtn:hover {
+  background-color: aquamarine;
+  opacity: 0.3;
+  color: black;
+  font-weight: bolder;
+}
+/* paragraph - instruction on the wall font size */
+p {
+  color: hsl(0, 20%, 95%);
+  font-size: 18px;
+  padding-left: 40px;
+}
+
+#resultDiv {
+  align-self: first baseline;
+  color: black;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(110, 104, 104);
+  opacity: 0.7;
+}
